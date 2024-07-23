@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="accoremgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2025\accoremgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcCui">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2025\AcCui.dll</HintPath>
+    </Reference>
+    <Reference Include="Acdbmgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2025\acdbmgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcDx">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2025\AcDx.dll</HintPath>
+    </Reference>
+    <Reference Include="Acmgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2025\acmgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcWindows">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2025\AcWindows.dll</HintPath>
+    </Reference>
+    <Reference Include="AdWindows">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2025\AdWindows.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\amd64_presentationframework_31bf3856ad364e35_4.0.15840.287_none_a17a4ec721675bbb\PresentationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization.Design">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\amd64_system.windows.form..isualization.design_31bf3856ad364e35_4.0.15805.0_none_bc95873a972c861e\System.Windows.Forms.DataVisualization.Design.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
